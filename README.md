@@ -8,7 +8,7 @@ Traditional solutions like a static Table of Contents (TOC) are helpful, but the
 To address this issue, we can implement a scroll-aware article reader using the Intersection Observer API, a browser-native JavaScript API designed to detect when an element enters or exits the viewport.
 
 3. How It Works:
--> The article is divided into well-defined sections (e.g., <section id="intro">, <section id="features">).
+-> The article is divided into well-defined sections (e.g.,<section id="intro">, <section id="features">).
 -> A corresponding Table of Contents (TOC) contains anchor links pointing to each section.
 -> The Intersection Observer watches each section on the page.
 -> As the user scrolls, the API detects which section is currently intersecting (visible) in the viewport.

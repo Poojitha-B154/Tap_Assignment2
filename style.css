@@ -1,0 +1,16 @@
+#toc {
+  position: fixed;
+  left: 0;
+  top: 20px;
+  width: 200px;
+}
+
+#toc a.active {
+  font-weight: bold;
+  color: darkblue;
+}
+section {
+  margin-left: 220px;
+  padding: 50px 20px;
+  height: 100vh; /* For scroll effect */
+}
